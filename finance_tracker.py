@@ -1,6 +1,7 @@
 # main.py
 from modules import pdf_reader, data_extractor, data_analyzer, visualizer, data_storage
 
+
 def main():
     # Path to the folder containing your bank statements
     folder_path = "path_to_your_folder"
@@ -19,6 +20,7 @@ def main():
 
     # Store the data
     data_storage.store_data(income_expenses)
+
 
 if __name__ == "__main__":
     main()
